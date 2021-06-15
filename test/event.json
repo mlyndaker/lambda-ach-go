@@ -1,0 +1,16 @@
+{
+  "Records":[
+    {
+      "awsRegion":"us-east-2",
+      "eventSource": "aws:s3",
+      "s3":{
+        "bucket":{
+          "name":"nwllc-data-warehouse-dev"
+        },
+        "object":{
+          "key":"testing-data/nacha/test.ach"
+        }
+      }
+    }
+  ]
+}
